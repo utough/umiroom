@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UMI ROOM 813 ｜ Fukuoka UMI ROOM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Zen+Maru+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="fv">
+      <!-- ヘッダー -->
+      <header><h1 class="header__logo">UMI ROOM 813</h1></header>
+
+      <!-- ヒーロー -->
+      <section class="hero">
+        <div class="hero__movie-box">
+          <div class="hero__movie"></div>
+        </div>
+        <div class="hero__text-box">
+          <div>
+            <h1>福岡で<br />海を感じる、<br />ちょっとの贅沢</h1>
+          </div>
+          <a href="#" class="reserve-btn">予約する</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- ナビゲーション -->
+    <nav id="navi" class="navi">
+      <div>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">お部屋</a></li>
+          <li><a href="#">過ごし方</a></li>
+          <li><a href="#">アクセス</a></li>
+          <li><a href="#">空室情報</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- モバイルメニュー -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- お部屋について -->
+    <section class="room">
+      <div class="room-catch">
+        <div class="room-catch__text-box">
+          <h2>
+            UMI ROOM 813
+            <span class="ruby">ウミルームハチイチサン</span>
+          </h2>
+          <p>
+            福岡市内なのに、夕方は海と夕陽を独り占め。肩の力を抜けるスタジオ風の空間です。
+          </p>
+        </div>
+        <div class="room-catch__img-box">
+          <img
+            src="/img/living.png"
+            alt="オーシャンビューとリラックスソファの画像"
+          />
+        </div>
+      </div>
+      <div class="room-detail container">
+        <div class="room-detail__gallery">
+          <button id="prev"></button>
+          <img id="viewer" src="/img/room-img01.png" alt="" />
+          <button id="next"></button>
+        </div>
+        <div class="room-detail__text-box box">
+          <div>
+            <h3>詳細</h3>
+            <ul class="icon-lists">
+              <li>
+                <p class="icon person">最大２名まで</p>
+                <!-- <p class="desc"></p> -->
+              </li>
+              <li>
+                <p class="icon bed">シングルベッド２台</p>
+                <p class="desc">
+                  簡単に移動ができるベッドのためダブルベッド仕様にもカスタム可能
+                </p>
+              </li>
+              <li>
+                <p class="icon wifi">Wi-Fi高速</p>
+                <!-- <p class="desc"></p> -->
+              </li>
+              <li>
+                <p class="icon home">ミニキッチン</p>
+                <p class="desc">
+                  フライパン２つ、プレート４枚、カトラリー、ワイングラスなど
+                </p>
+              </li>
+              <li>
+                <p class="icon amenity">アメニティ完備</p>
+                <!-- <p class="desc"></p> -->
+              </li>
+              <li>
+                <p class="icon time">
+                  チェックイン 15:00より<br />チェックアウト 11:00まで
+                </p>
+                <!-- <p class="desc"></p> -->
+              </li>
+            </ul>
+          </div>
+          <a class="btn room-detail__text-box__btn" href="">詳細をチェック</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- UMI ROOM 813での過ごし方 -->
+    <section class="enjoy">
+      <h3>UMI ROOM 813での過ごし方</h3>
+      <div class="enjoy-wrap">
+        <div class="enjoy-point">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/img/fukuoka01.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/fukuoka02.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/fukuoka03.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/fukuoka01.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/fukuoka02.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/fukuoka03.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <h4>天神・中洲・博多へ、好アクセス</h4>
+            <p>
+              観光は街中で、帰る拠点は海沿いで。
+              食べ物から、ファッション、アクティビティと
+              さまざまなお楽しみが多い福岡の街をお楽しみください。
+            </p>
+          </div>
+        </div>
+        <div class="enjoy-point">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/img/fukuoka04.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/room-interia.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/room-service.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/fukuoka04.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/room-interia.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/room-service.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <h4>UMI ROOM 813が目的地</h4>
+            <p>
+              まるで海外に来たかのようなロケーションとインテリアと、「海」「余白」そして「コーヒー」にこだわりました。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UMI ROOM ギャラリー -->
+    <section class="gallery container">
+      <h3>フォトギャラリー</h3>
+      <div class="gallery-box">
+        <div class="gallery-box__item wide">
+          <img src="/img/fukuoka04.png" alt="" />
+        </div>
+        <div class="gallery-box__item">
+          <img src="/img/fukuoka03.png" alt="" />
+        </div>
+        <div class="gallery-box__item">
+          <img src="/img/fukuoka05.png" alt="" />
+        </div>
+      </div>
+      <div class="gallery-box">
+        <div class="gallery-box__item">
+          <img src="/img/room-img02.png" alt="" />
+        </div>
+        <div class="gallery-box__item">
+          <img src="/img/room-img01.png" alt="" />
+        </div>
+        <div class="gallery-box__item wide">
+          <img src="/img/room-interia02.png" alt="" />
+        </div>
+      </div>
+      <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img" />
+      </div>
+    </section>
+
+    <!-- アクセス -->
+    <section class="access container">
+      <div>
+        <div class="access__text-box">
+          <h3>UMI ROOM 813へのアクセス</h3>
+          <p><a href="">福岡市中央区110-20-813</a></p>
+          <p>駐車場１台</p>
+          <p>市営地下鉄 何戸化駅 徒歩3分</p>
+        </div>
+        <a href="" class="reserve-btn">Airbnbへ</a>
+        <div class="access__img-box">
+          <div class="img-wrap">
+            <img src="/img/umiroom-exteria.png" alt="ウミルームの外観" />
+          </div>
+          <div class="img-wrap">
+            <img src="/img/umiroom-parking.png" alt="ウミルームの駐車場" />
+          </div>
+        </div>
+      </div>
+      <div class="access__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6633.9671616986025!2d130.48086935!3d33.76109015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3542287069e50a91%3A0xfba47497a73e357e!2z44CSODExLTMyMTQg56aP5bKh55yM56aP5rSl5biC6Iqx6KaL44GM5LiY77yR5LiB55uu!5e0!3m2!1sja!2sjp!4v1757422821896!5m2!1sja!2sjp"
+          style="border: 0; width: 100%; height: 80%"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="container">
+      <div class="footer__text-box">
+        <div class="name">UMI ROOM 813</div>
+        <div class="adress">福岡市中央区110-20-813</div>
+      </div>
+      <div class="footer__icon-box">
+        <a href=""><i></i></a>
+      </div>
+    </footer>
+    <script src="/js/script.js" type="module"></script>
+  </body>
+</html>
